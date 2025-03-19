@@ -55,3 +55,11 @@ h2 {
     text-align: center;
     color:#e2cd13;
 }
+
+table tr td {
+    padding:20px;
+}
+
+table {
+    margin: 0 auto;
+}
