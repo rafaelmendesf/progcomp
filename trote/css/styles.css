@@ -63,3 +63,55 @@ table tr td {
 table {
     margin: 0 auto;
 }
+
+.laranja {
+    background-color: orange;
+    color:black;
+    font-weight: bold;
+}
+
+.preto {
+    background-color: black;
+    color:white;
+    font-weight: bold;
+}
+
+.roxa {
+    background-color: purple;
+    color:white;
+    font-weight: bold;
+}
+
+.verde {
+    background-color: green;
+    color:white;
+    font-weight: bold;
+}
+
+.vermelho {
+    background-color: red;
+    color:white;
+    font-weight: bold;
+}
+
+th{
+    background-color: #082953;
+    color:#e2cd13;
+    text-align: center;
+}
+
+td{
+    color:black;
+    font-weight: bold;
+    text-align: center;
+}
+
+tr{
+    background-color: #7dafe6;
+}
+
+#gincana_tabela {
+    border-color: rgb(194, 194, 29);
+    width: 11in;
+    height: 7in;
+}
