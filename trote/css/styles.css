@@ -115,3 +115,33 @@ tr{
     width: 11in;
     height: 7in;
 }
+
+#mascote {
+    background-color: #3465a5;
+    color: white;
+    font-weight: bold;
+}
+
+#homenagem {
+    background-color: #3465a5;
+    color: white;
+    font-weight: bold;
+}
+
+label {
+    background-color: #082953;
+    color:#e2cd13;
+}
+
+#botao_calculadora {
+    background-color: #082953;
+    color:#e2cd13;
+    font-weight: bold;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+}
+
+.campos{
+    margin-top: 40px;
+}
