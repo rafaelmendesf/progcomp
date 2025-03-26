@@ -6,4 +6,9 @@ function calcular(){
     alert(mascote)
     homenagem = document.getElementById("homenagem").value
     alert(homenagem)
+
+    let soma = mascote + homenagem
+    alert(soma)
+
+    
 }
