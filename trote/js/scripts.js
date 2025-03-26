@@ -7,8 +7,8 @@ function calcular(){
     homenagem = document.getElementById("homenagem").value
     alert(homenagem)
 
-    let soma = mascote + homenagem
+    let soma = Number(mascote) + Number(homenagem)
     alert(soma)
 
-    
+
 }
