@@ -130,6 +130,27 @@ tr{
     margin-left: 20px;
 }
 
+#leite {
+    background-color: #3465a5;
+    color: white;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+#kitAvulso {
+    background-color: #3465a5;
+    color: white;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+#suplementoAvulso {
+    background-color: #3465a5;
+    color: white;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
 label {
     background-color: #082953;
     color:#e2cd13;

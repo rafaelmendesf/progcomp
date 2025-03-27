@@ -1,13 +1,19 @@
 function calcular(){
     // Vamos criar 2 variáveis
     // JS as variáveis não possuem tipo
-    let mascote, homenagem
+    let mascote, homenagem, leite, kitAvulso, suplementoAvulso
 
     mascote = document.getElementById("mascote").value
 
     homenagem = document.getElementById("homenagem").value
 
-    let soma = Number(mascote) + Number(homenagem)
+    leite = document.getElementById("leite").value
+
+    kitAvulso = document.getElementById("kitAvulso").value
+
+    suplementoAvulso = document.getElementById("suplementoAvulso").value
+
+    let soma = Number(mascote) + Number(homenagem) + (2 * Number(leite)) + (30 * Number(kitAvulso)) + (15 * Number(suplementoAvulso))
     alert(soma)
 
     document.getElementById("soma").innerHTML = `A soma é ${soma}`
