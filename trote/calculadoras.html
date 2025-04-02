@@ -10,9 +10,11 @@
 </head>
 
 <body>
+
     <header>
         Trote Solidário 2025
     </header>
+
     <nav>
         <div id="links-menu">
             <a href="index.html"> Home </a>
@@ -32,6 +34,18 @@
     <div class="container">
         <h2> Calculadoras </h2>
         <form>
+
+            <div class="campos">
+                <label> Selecione a cor da equipe: </label>
+                <select id="equipe">
+                    <option value="Laranja"> Laranja </option>
+                    <option value="Preta"> Preta </option>
+                    <option value="Roxa"> Roxa </option>
+                    <option value="Verde"> Verde </option>
+                    <option value="Vermelha"> Vermelha </option>
+                </select>
+            </div>
+
             <div class="campos">
                 <label> Mascote do Time </label>
                 <input type="number" id="mascote"/>
@@ -45,17 +59,19 @@
                 <input type="number" id="leite"/>
             </div>
             <div class="campos">
-                <label> Kit de Alimentação (Avulso) </label>
-                <input type="number" id="kitAvulso"/>
+                <label> Kit de Alimentação </label>
+                <input type="number" id="kit"/>
             </div>
             <div class="campos">
-                <label> Suplemento (Avulso) </label>
-                <input type="number" id="suplementoAvulso"/>
+                <label> Suplemento </label>
+                <input type="number" id="suplemento"/>
             </div>
+
             <div class="campos">
                 <button type="button" id="botao_calculadora" onclick="calcular()"> Calcular </button>
                 <label id="soma"> </label>
             </div>
+
         </form>
 
 
