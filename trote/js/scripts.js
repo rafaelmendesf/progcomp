@@ -31,7 +31,5 @@ function calcular(){
             soma = soma + 1000 + ((kit - 19) * 30) + ((suplemento - 10) * 15)
         }
     }   
-
     document.getElementById("soma").innerHTML = `A soma é ${soma}`
-
 }
