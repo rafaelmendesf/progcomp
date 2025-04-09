@@ -31,6 +31,19 @@ function calcular(){
             soma = soma + 1000 + ((kit - 19) * 30) + ((suplemento - 10) * 15)
         }
     }
+    else if(equipe == "Preta"){
+
+    }
+    else if(equipe == "Roxa"){
+
+    }
+    else if(equipe == "Verde"){
+
+    }
+    else { // equipe vermelha
+    
+    }
+
     
     document.getElementById("soma").innerHTML = `A soma é ${soma}`
 
